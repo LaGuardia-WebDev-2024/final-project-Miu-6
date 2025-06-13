@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
     <meta charset="utf-8" />
     <title>Final Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
+      
+      .child-flex {font-family: "Rubik Wet Paint", system-ui;{}
+      
       .parent-flex {
         display: flex;
-        background-color: purple;
+        background-color: #cfb5cd;
         justify-content: space-around;
         padding: 10px;
         margin-bottom: 20px;
@@ -26,7 +32,7 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
       <li><a class="active" href="art.html">Art</a></li>
-      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -43,24 +49,34 @@
       </li>
     </ul>
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
+  
     <h1>My Art</h1>
+<div class="parent-flex">
+      <div class="child-flex">
+        <img
+          src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+        />
+      </div>
+      <div class="child-flex">
+        <p>
+          My webdev logo for Webdev class of 2025-2026
+        </p>
+      </div>
+    </div>
+      
+   
 
     <div class="parent-flex">
+      <div class="child-flex">
       <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+        src="https://cdn.glitch.global/8ffbf01d-f250-4da5-8598-e22c7a9718b9/PXL_20250604_155609477.jpg?v=1749765784942"
       />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
+      </div>
+         <div class="child-flex">
+      <p>
+          My mini self portrait project for class
+        </p>
     </div>
-
-    <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-      />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
-    </div>
+       </div>
   </body>
 </html>
